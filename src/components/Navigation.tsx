@@ -60,12 +60,9 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div 
-            className="flex items-center space-x-2 cursor-pointer"
+            className="cursor-pointer"
             onClick={() => handleNavigation('/')}
           >
-            <div className="gradient-hero p-2 rounded-lg">
-              <PawPrint className="h-6 w-6 text-primary-foreground" />
-            </div>
             <span className="text-xl font-bold text-primary">PetConnect</span>
           </div>
 
